@@ -16,18 +16,18 @@ const controlButtons = props => {
                                        onPress={props.onLogOutPress}/>
       </View>
       :<View style={styles.loginContainer} >
+        <ButtonWithIcon color={"#DD4B39"}
+                        buttonText={"Or with Google"}
+                        iconName={"logo-google"}
+                        iconColor={"white"}
+                        TextColor={"white"}
+                        onPress={props.onGooglePress}/>
       <ButtonWithIcon color={"#3b5998"}
                       buttonText={"Login with Facebook"}
                       iconName={"logo-facebook"}
                       iconColor={"white"}
                       TextColor={"white"}
                       onPress={props.onFbPress}/>
-      <ButtonWithIcon color={"#DD4B39"}
-                      buttonText={"Or with Google"}
-                      iconName={"logo-google"}
-                      iconColor={"white"}
-                      TextColor={"white"}
-                      onPress={props.onGooglePress}/>
     </View>
 
   )
