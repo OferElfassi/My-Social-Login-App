@@ -39,7 +39,7 @@ yarn-error.log
 # BUCK
 buck-out/
 \.buckd/
-*.keystore
+
 
 # fastlane
 #
@@ -56,7 +56,6 @@ buck-out/
 *.jsbundle
 
 # Configuration and credential files
-android/app/google-services.json
 ios/GoogleService-Info.plist
 config.js
 
